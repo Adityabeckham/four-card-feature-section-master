@@ -43,23 +43,20 @@ body {
   line-height: 1.5;
 }
 
-/*Layout Kartu*/
 .cards {
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-
   align-items: center;
   justify-items: center;
-  
 }
 
 .middle-cards {
-  display: flex;
+  display:flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 100%;
 }
+
 
 /* Kartu */
 .card {
